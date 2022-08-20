@@ -2,8 +2,8 @@
 
 const Header = ({title}) => {
   return (
-    <header >
-        {title}
+    <header className="text-center">
+       <h1>{title}</h1> 
     </header>
   )
 }
